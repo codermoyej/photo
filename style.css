@@ -1,0 +1,541 @@
+/*------------------------------------------------------------------------------------
+Template Name: Phototime. 
+Template URI: http://softtech-it.com
+Description: Business & Corporate HTML5 Template
+Author: Moyej
+Author URI: https://mmmoyej-tech.com
+Version: 1.0
+-------------------------------------------
+CSS INDEX
+=================== 
+1. Typography
+2. THEME DEFAULT CSS
+3. Header Area
+	3.1 Nav Menu Area
+	3.2 Welcome Text area
+	3.3 Social Link area
+4. Geting-started area
+5. Design Area
+6. Community Area
+7. Subscribe Area
+8. Download Area
+9. Footer Area
+	9.1 Footer Menu
+
+
+
+---------------------------------------------------------------------------------------*/
+
+
+/*============================
+  1. Typography
+==============================*/
+@font-face{
+	font-family: "gothomrounded bold";
+	src: url('webfonts/GothamRoundedBold_21016.woff') format('woff');
+}
+@font-face{
+	font-family: "gothomrounded medium";
+	src: url('webfonts/GothamRounded-Medium.woff') format('woff');
+}
+@font-face{
+	font-family: "gothomrounded book";
+	src: url('webfonts/GothamRounded-Book.woff') format('woff');
+}
+body, 
+p{
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+	font-family: "gothomrounded bold";
+}
+
+/*============================
+  2. THEME DEFAULT CSS
+==============================*/
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+/*============================
+  3. Header Area
+==============================*/
+.header-area{
+	background: url('images/header_bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 30px 0 20px;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+}
+/*============================
+  3.1 Nav Menu Area
+==============================*/
+.menu-area{
+	overflow: hidden;
+}
+.menu-area ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-area ul li{
+	margin: 12px 30px;
+	display: inline-block;
+}
+.menu-area ul li .logo{
+	width: 56px;
+	height: auto;
+	margin: 0 42px -12px;
+	border-bottom: 2px solid transparent;
+}
+.menu-area ul li a{	
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "gothomrounded bold";
+	letter-spacing: 2px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+	border-bottom: 2px solid transparent;
+	padding: 4px 0;
+}
+.menu-area ul li:hover a{
+	color: #16A086;
+	text-decoration: none;
+	border-bottom: 2px solid #16A086;
+
+}
+.menu-area ul li:hover .logo_border{
+	border-bottom: 2px solid transparent;
+}
+/*============================
+  3.2 Welcome Text area
+==============================*/
+.welcome-text{
+	overflow: hidden;
+	margin: 223px 0 200px;
+}
+.welcome-text h2{
+	font-family: "gothomrounded bold";
+	text-transform: uppercase;
+	font-size: 38px;
+	margin: 20px 0;
+	letter-spacing: 6px;
+}
+.welcome-text h5{
+	font-family: "gothomrounded medium";
+	text-transform: lowercase;
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin: 26px 0;
+	font-weight: normal;
+}
+.welcome-text a{
+	color: #FFFFFF;
+	font-size: 14px;
+	background: #16A086;
+	padding: 16px 34px;
+	display: inline-block;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: "gothomrounded bold";
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.welcome-text a:hover{	
+	color: #d1d1d1;
+	text-decoration: none;
+	background: #0f7965
+}
+/*============================
+  3.3 Social Link area
+==============================*/
+.social-links{
+	overflow: hidden;
+}
+.social-links ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.social-links ul li{
+	display: inline;
+}
+.social-links ul li i{
+	color: #FFFFFF;
+	font-size: 25px;
+	margin: 0 10px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.social-links ul li i:hover{
+	color: #16A086;
+	
+}
+/*============================
+  4. Geting-started area
+==============================*/
+.getting-started{
+	background: #F5F6F8;
+	overflow: hidden;
+	padding: 90px 0 0;
+}
+.getting-started-left{
+	width: 40%;
+	float: left;
+	margin-top: 36px;
+}
+.getting-started-right{
+	width: 60%;
+	overflow: hidden;
+}
+.getting-started-left h3{
+	font-family: "gothomrounded bold";
+	color: #16A086;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.2em;
+	margin-bottom: 40px;
+}
+.getting-started-left p{
+	line-height: 1.7em;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	color: #737375;
+	font-family: "gothomrounded book";
+}
+.getting-started-left a{
+	color: #FFFFFF;
+	font-size: 14px;
+	background: #16A086;
+	padding: 16px 52px;
+	display: inline-block;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: "gothomrounded bold";
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.getting-started-left a:hover{
+	color: #d1d1d1;
+	text-decoration: none;
+	background: #0f7965;
+}
+.getting-started-right img{
+	width: 100%;
+	margin-bottom: -307px;
+}
+/*============================
+  5. Design area
+==============================*/
+.design-area{
+	padding: 120px 0 0;
+	overflow: hidden;
+}
+.design-area-left{
+	width: 50%;
+	float: left;
+	margin-right: 10%;
+}
+.design-area-right{
+	width: 40%;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.design-area-right h3{
+	font-family: "gothomrounded bold";
+	color: #16A086;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.2em;
+	margin-bottom: 40px;
+}
+.design-area-right p{
+	line-height: 1.7em;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	color: #737375;
+	font-family: "gothomrounded book";
+}
+.design-area-right a{
+	color: #FFFFFF;
+	font-size: 14px;
+	background: #16A086;
+	padding: 16px 52px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "gothomrounded bold";
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.design-area-right a:hover{
+	color: #d1d1d1;
+	text-decoration: none;
+	background: #0f7965;
+}
+.design-area-left img{
+	margin-bottom: -207px;
+}
+.slider-designpart p{
+	font-family: "gothomrounded book";
+	font-weight: bold;
+}
+.slider-designpart i{
+	font-size: 28px;
+	margin-right: 8px;
+	color: #222222;
+}
+
+/*============================
+  6. Community Area
+==============================*/
+.community-area{
+	overflow: hidden;
+	padding: 80px 0;
+	background: #F5F6F8;	
+}
+.slider-community{
+	text-align: right;
+	margin-right: 2%;
+}
+.slider-community i{
+	font-size: 28px;
+	margin-left: 8px;
+	color: #222222;
+}
+.collums{
+	overflow: hidden;
+	text-align: center;
+}
+.col-1-3{
+	width: 31.33%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden; 	
+}
+
+.col-1-3 h3{
+	font-family: "gothomrounded bold";
+	color: #222222;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.2em;
+	margin: 30px 0;
+}
+.col-1-3 p{
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	color: #737375;
+	font-family: "gothomrounded book";
+}
+
+/*============================
+  7. Subscribe Area
+==============================*/
+.subscribe-area{
+	background: url('images/subscribe_bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 350px 0;
+	text-align: center;
+}
+.subscribe-area h3{
+	font-family: "gothomrounded bold";
+	color: #FFFFFF;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.2em;
+	margin: 30px 0;
+}
+.subscribe-area input{
+	background: #FFFFFF;
+	padding: 18px 20px;
+	border: 1px solid transparent;
+	width: 255px;
+	font-size: 17px;
+	font-family: "gothomrounded medium";
+	border-radius: 3px 0 0 3px;
+}
+.subscribe-area a{
+	padding: 18px 20px;
+	font-size: 17px;
+	border-radius: 0 3px 3px 0;
+	color: #FFFFFF;
+	background: #16A086;
+	border: 1px solid transparent;
+	margin-left: -4px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.subscribe-area a:hover{
+	color: #d1d1d1;
+	text-decoration: none;
+	background: #0f7965;	
+}
+
+/*============================
+  8. Download Area
+==============================*/
+.download-area{
+	background: #F5F6F8;
+	padding: 90px 0;
+	text-align: center;
+}
+.download-area h3{
+	font-family: "gothomrounded bold";
+	color: #222222;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.2em;
+}
+.download-area p{
+	line-height: 1.7em;
+	letter-spacing: 2px;
+	margin: 10px 0 40px;
+	color: #737375;
+	font-family: "gothomrounded book";
+}
+.download-area input[id="apple"], 
+.download-area input[id="play"]{
+	background: #1BBC9B;
+	color: #FFFFFF;
+	padding: 18px 20px;
+	border: 1px solid transparent;
+	width: 200px;
+	font-size: 17px;
+	font-family: "gothomrounded medium";
+	border-radius: 3px 0 0 3px;
+}
+.download-area .apple-link{
+	padding: 18px 20px;
+	font-size: 17px;
+	border-radius: 0 3px 3px 0;
+	color: #FFFFFF;
+	background: #16A086;
+	border: 1px solid transparent;
+	margin: 0 10px 0 -4px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.download-area .play-link{
+	padding: 18px 20px;
+	font-size: 17px;
+	border-radius: 0 3px 3px 0;
+	color: #FFFFFF !important;
+	background: #16A086;
+	border: 1px solid transparent;
+	margin: 0 0 0 -4px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.download-area .apple-link:hover, 
+.download-area .play-link:hover{
+	color: #d1d1d1;
+	text-decoration: none;
+	background: #0f7965;	
+}
+
+/*============================
+  9. Footer Area
+==============================*/
+
+.footer-area{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.footer-left{
+	float: left;
+	width: 70%;
+}
+.blue-logo{
+	width: 30%;
+	overflow: hidden;
+}
+.blue-logo img{
+	float: right;
+}
+.footer-left h6{
+	color: #373737;
+	font-size: 14px;
+	font-family: "gothomrounded bold";
+	letter-spacing: 2px;
+	margin-top: 20px;
+	font-weight: normal;	
+}
+/*============================
+  9.1 Footer Menu
+==============================*/
+.footer-menu:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.footer-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-menu ul li{
+	float: left;
+	border-right: 2px solid #16A086;
+	padding: 0 8px;	
+}
+.footer-menu ul li:last-child{
+border-right: 0;	
+}
+.footer-menu ul li:first-child{
+	padding-left: 0;	
+}
+.footer-menu ul li a{
+	color: #373737;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "gothomrounded bold";
+	letter-spacing: 2px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+}
+.footer-menu ul li a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
